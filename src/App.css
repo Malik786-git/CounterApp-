@@ -1,0 +1,30 @@
+body{
+    background: rgb(7, 7, 32);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.container{
+    background: goldenrod;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: -10px;
+}
+.updateBtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    background: rgb(19, 18, 18);
+    color: white;
+    border: 0;
+    margin: 5px;   
+}
